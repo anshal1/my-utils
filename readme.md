@@ -79,7 +79,7 @@ console.log(decrypted); // decrypted data
 1. **checkIfFieldIsEmptyInAobject**
 *Takes an object, an optional array of fields to ignore, and an optional custom error message. Returns an error message if any required field is empty, or an empty string if all fields are present.*
 
-Note: The custom error message supports the `key` placeholder, which will be replaced with the name of the empty field.
+Note: The custom error message supports the `key` placeholder, which will be replaced with the name of the empty field. All occurrences of `key` in the error message will be replaced with the name of the empty field.
 
 # *Example*
 ```typescript
